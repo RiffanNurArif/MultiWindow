@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.multiwindow.NewActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="180dp"
+        android:src="@drawable/anyar"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama   : Riffan Nur Arif"
+        android:gravity="left"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat : Kusumodilagan RT 02 / RW 10 "
+        android:gravity="left"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobi     : Ngegame"
+        android:gravity="left"
+        android:textSize="20sp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

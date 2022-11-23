@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.multiwindowdannio">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MultiWindow"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MultiWindow">
+        <activity
+            android:name="com.example.multiwindow.profile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.multiwindow.berita"
+            android:exported="false" />
+        <activity
+            android:name="com.example.multiwindow.profile"
+            android:exported="false" />
+        <activity
+            android:name=".Exit"
+            android:exported="false" />
+        <activity
+            android:name="com.example.multiwindow.Login"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.multiwindow.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+    </application>
+
+</manifest>
